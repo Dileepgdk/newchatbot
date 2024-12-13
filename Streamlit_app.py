@@ -1,6 +1,8 @@
 import openai
 import streamlit as st
 
+OPENAI_API_KEY = ""
+
 st.title("ChatGPT-Model")
 
 openai.api_key = st.secrets["OPENAI_API_KEY"]
