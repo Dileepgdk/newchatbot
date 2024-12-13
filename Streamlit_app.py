@@ -1,7 +1,7 @@
 import openai
 import streamlit as st
 
-OPENAI_API_KEY = ""
+OPENAI_API_KEY = "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"
 
 st.title("ChatGPT-Model")
 
